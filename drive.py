@@ -3,16 +3,18 @@ import socketio
 import eventlet
 import numpy as np
 from flask import Flask
-import tensorflow as tf
+# from tensorflow import keras
+# from keras.models import load_model
 import base64
 from io import BytesIO
 from PIL import Image
 import cv2
+import pickle
 
 sio = socketio.Server()
 
-app = Flask(__name__)
-speed_limit = 10
+app = Flask(__name__) 
+speed_limit = 10 
 
 def img_preprocess(img):
     img = img[60:135,:,:]
@@ -47,6 +49,8 @@ def telemetry(sid, data):
     send_control(steering_angle, throttle)
 
 if __name__ == '__main__':
-    model = tf.keras.models.load_model('model.h5')
+
+    with open("model.pickle", "rb") as file:
+        model = pickle.load(file)
     app = socketio.Middleware(sio, app)
     eventlet.wsgi.server(eventlet.listen(('', 4567)), app)
