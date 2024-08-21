@@ -50,7 +50,7 @@ def telemetry(sid, data):
 
 if __name__ == '__main__':
 
-    with open("model.pickle", "rb") as file:
+    with open("model_best.pickle", "rb") as file:
         model = pickle.load(file)
     app = socketio.Middleware(sio, app)
     eventlet.wsgi.server(eventlet.listen(('', 4567)), app)

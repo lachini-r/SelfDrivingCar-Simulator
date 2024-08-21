@@ -22,7 +22,7 @@ Platform assembly: C:\Users\User\OneDrive\Documents\Torrens Uni T2 2024\DevOps -
 Loading C:\Users\User\OneDrive\Documents\Torrens Uni T2 2024\DevOps - DOT503\GitHub\SelfDrivingCar-Simulator\simulator-windows-64\Default Windows desktop 64-bit_Data\Managed\UnityEngine.CloudBuild.dll into Unity Child Domain
 Platform assembly: C:\Users\User\OneDrive\Documents\Torrens Uni T2 2024\DevOps - DOT503\GitHub\SelfDrivingCar-Simulator\simulator-windows-64\Default Windows desktop 64-bit_Data\Managed\UniFileBrowser.dll (this message is harmless)
 Loading C:\Users\User\OneDrive\Documents\Torrens Uni T2 2024\DevOps - DOT503\GitHub\SelfDrivingCar-Simulator\simulator-windows-64\Default Windows desktop 64-bit_Data\Managed\UniFileBrowser.dll into Unity Child Domain
-- Completed reload, in  0.204 seconds
+- Completed reload, in  0.096 seconds
 Platform assembly: C:\Users\User\OneDrive\Documents\Torrens Uni T2 2024\DevOps - DOT503\GitHub\SelfDrivingCar-Simulator\simulator-windows-64\Default Windows desktop 64-bit_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\User\OneDrive\Documents\Torrens Uni T2 2024\DevOps - DOT503\GitHub\SelfDrivingCar-Simulator\simulator-windows-64\Default Windows desktop 64-bit_Data\Managed\System.dll (this message is harmless)
 OnLevelWasLoaded was found on ReturnToMainMenu
@@ -38,23 +38,95 @@ desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 2.148900 ms
+UnloadTime: 13.628800 ms
 Setting up 1 worker threads for Enlighten.
-  Thread -> id: 81c -> priority: 1 
+  Thread -> id: 6458 -> priority: 1 
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 7.209500 ms
+UnloadTime: 6.221100 ms
 
 Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 419.
-Total: 0.323800 ms (FindLiveObjects: 0.032000 ms CreateObjectMapping: 0.015700 ms MarkObjects: 0.254000 ms  DeleteObjects: 0.021200 ms)
+Total: 0.855500 ms (FindLiveObjects: 0.047800 ms CreateObjectMapping: 0.015300 ms MarkObjects: 0.211600 ms  DeleteObjects: 0.580000 ms)
 
 Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 4.352300 ms
+UnloadTime: 4.756900 ms
 
 Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 1465.
-Total: 1.288600 ms (FindLiveObjects: 0.134100 ms CreateObjectMapping: 0.063800 ms MarkObjects: 0.429000 ms  DeleteObjects: 0.660400 ms)
+Total: 1.203800 ms (FindLiveObjects: 0.102500 ms CreateObjectMapping: 0.047400 ms MarkObjects: 0.540700 ms  DeleteObjects: 0.512000 ms)
 
 Platform assembly: C:\Users\User\OneDrive\Documents\Torrens Uni T2 2024\DevOps - DOT503\GitHub\SelfDrivingCar-Simulator\simulator-windows-64\Default Windows desktop 64-bit_Data\Managed\System.Configuration.dll (this message is harmless)
 Platform assembly: C:\Users\User\OneDrive\Documents\Torrens Uni T2 2024\DevOps - DOT503\GitHub\SelfDrivingCar-Simulator\simulator-windows-64\Default Windows desktop 64-bit_Data\Managed\System.Xml.dll (this message is harmless)
+8/20/2024 2:03:08 PM|Fatal|WebSocket.acceptException|System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it.
+                           
+                             at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP, Boolean requireSocketPolicy) [0x00000] in <filename unknown>:0 
+                             at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP) [0x00000] in <filename unknown>:0 
+                             at System.Net.Sockets.TcpClient.Connect (System.Net.IPEndPoint remote_end_point) [0x00000] in <filename unknown>:0 
+                             at System.Net.Sockets.TcpClient.Connect (System.Net.IPAddress[] ipAddresses, Int32 port) [0x00000] in <filename unknown>:0 
+8/20/2024 2:03:11 PM|Fatal|WebSocket.acceptException|System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it.
+                           
+                             at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP, Boolean requireSocketPolicy) [0x00000] in <filename unknown>:0 
+                             at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP) [0x00000] in <filename unknown>:0 
+                             at System.Net.Sockets.TcpClient.Connect (System.Net.IPEndPoint remote_end_point) [0x00000] in <filename unknown>:0 
+                             at System.Net.Sockets.TcpClient.Connect (System.Net.IPAddress[] ipAddresses, Int32 port) [0x00000] in <filename unknown>:0 
+8/20/2024 2:03:13 PM|Fatal|WebSocket.acceptException|System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it.
+                           
+                             at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP, Boolean requireSocketPolicy) [0x00000] in <filename unknown>:0 
+                             at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP) [0x00000] in <filename unknown>:0 
+                             at System.Net.Sockets.TcpClient.Connect (System.Net.IPEndPoint remote_end_point) [0x00000] in <filename unknown>:0 
+                             at System.Net.Sockets.TcpClient.Connect (System.Net.IPAddress[] ipAddresses, Int32 port) [0x00000] in <filename unknown>:0 
+8/20/2024 2:03:15 PM|Fatal|WebSocket.acceptException|System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it.
+                           
+                             at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP, Boolean requireSocketPolicy) [0x00000] in <filename unknown>:0 
+                             at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP) [0x00000] in <filename unknown>:0 
+                             at System.Net.Sockets.TcpClient.Connect (System.Net.IPEndPoint remote_end_point) [0x00000] in <filename unknown>:0 
+                             at System.Net.Sockets.TcpClient.Connect (System.Net.IPAddress[] ipAddresses, Int32 port) [0x00000] in <filename unknown>:0 
+8/20/2024 2:03:18 PM|Fatal|WebSocket.acceptException|System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it.
+                           
+                             at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP, Boolean requireSocketPolicy) [0x00000] in <filename unknown>:0 
+                             at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP) [0x00000] in <filename unknown>:0 
+                             at System.Net.Sockets.TcpClient.Connect (System.Net.IPEndPoint remote_end_point) [0x00000] in <filename unknown>:0 
+                             at System.Net.Sockets.TcpClient.Connect (System.Net.IPAddress[] ipAddresses, Int32 port) [0x00000] in <filename unknown>:0 
+8/20/2024 2:03:20 PM|Fatal|WebSocket.acceptException|System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it.
+                           
+                             at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP, Boolean requireSocketPolicy) [0x00000] in <filename unknown>:0 
+                             at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP) [0x00000] in <filename unknown>:0 
+                             at System.Net.Sockets.TcpClient.Connect (System.Net.IPEndPoint remote_end_point) [0x00000] in <filename unknown>:0 
+                             at System.Net.Sockets.TcpClient.Connect (System.Net.IPAddress[] ipAddresses, Int32 port) [0x00000] in <filename unknown>:0 
+8/20/2024 2:03:22 PM|Fatal|WebSocket.acceptException|System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it.
+                           
+                             at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP, Boolean requireSocketPolicy) [0x00000] in <filename unknown>:0 
+                             at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP) [0x00000] in <filename unknown>:0 
+                             at System.Net.Sockets.TcpClient.Connect (System.Net.IPEndPoint remote_end_point) [0x00000] in <filename unknown>:0 
+                             at System.Net.Sockets.TcpClient.Connect (System.Net.IPAddress[] ipAddresses, Int32 port) [0x00000] in <filename unknown>:0 
+8/20/2024 2:03:25 PM|Fatal|WebSocket.acceptException|System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it.
+                           
+                             at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP, Boolean requireSocketPolicy) [0x00000] in <filename unknown>:0 
+                             at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP) [0x00000] in <filename unknown>:0 
+                             at System.Net.Sockets.TcpClient.Connect (System.Net.IPEndPoint remote_end_point) [0x00000] in <filename unknown>:0 
+                             at System.Net.Sockets.TcpClient.Connect (System.Net.IPAddress[] ipAddresses, Int32 port) [0x00000] in <filename unknown>:0 
+8/20/2024 2:03:27 PM|Fatal|WebSocket.acceptException|System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it.
+                           
+                             at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP, Boolean requireSocketPolicy) [0x00000] in <filename unknown>:0 
+                             at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP) [0x00000] in <filename unknown>:0 
+                             at System.Net.Sockets.TcpClient.Connect (System.Net.IPEndPoint remote_end_point) [0x00000] in <filename unknown>:0 
+                             at System.Net.Sockets.TcpClient.Connect (System.Net.IPAddress[] ipAddresses, Int32 port) [0x00000] in <filename unknown>:0 
+8/20/2024 2:03:29 PM|Fatal|WebSocket.acceptException|System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it.
+                           
+                             at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP, Boolean requireSocketPolicy) [0x00000] in <filename unknown>:0 
+                             at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP) [0x00000] in <filename unknown>:0 
+                             at System.Net.Sockets.TcpClient.Connect (System.Net.IPEndPoint remote_end_point) [0x00000] in <filename unknown>:0 
+                             at System.Net.Sockets.TcpClient.Connect (System.Net.IPAddress[] ipAddresses, Int32 port) [0x00000] in <filename unknown>:0 
+8/20/2024 2:03:31 PM|Fatal|WebSocket.acceptException|System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it.
+                           
+                             at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP, Boolean requireSocketPolicy) [0x00000] in <filename unknown>:0 
+                             at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP) [0x00000] in <filename unknown>:0 
+                             at System.Net.Sockets.TcpClient.Connect (System.Net.IPEndPoint remote_end_point) [0x00000] in <filename unknown>:0 
+                             at System.Net.Sockets.TcpClient.Connect (System.Net.IPAddress[] ipAddresses, Int32 port) [0x00000] in <filename unknown>:0 
+8/20/2024 2:03:34 PM|Fatal|WebSocket.acceptException|System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it.
+                           
+                             at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP, Boolean requireSocketPolicy) [0x00000] in <filename unknown>:0 
+                             at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP) [0x00000] in <filename unknown>:0 
+                             at System.Net.Sockets.TcpClient.Connect (System.Net.IPEndPoint remote_end_point) [0x00000] in <filename unknown>:0 
+                             at System.Net.Sockets.TcpClient.Connect (System.Net.IPAddress[] ipAddresses, Int32 port) [0x00000] in <filename unknown>:0 
 Connection Open
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
@@ -64,8 +136,224 @@ Connection Open
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
 
 Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 9.240100 ms
+UnloadTime: 41.137199 ms
 
 Unloading 174 unused Assets to reduce memory usage. Loaded Objects now: 433.
-Total: 4.953800 ms (FindLiveObjects: 0.035000 ms CreateObjectMapping: 0.025900 ms MarkObjects: 1.008400 ms  DeleteObjects: 3.883900 ms)
+Total: 7.836400 ms (FindLiveObjects: 0.504400 ms CreateObjectMapping: 0.024200 ms MarkObjects: 3.247100 ms  DeleteObjects: 4.059900 ms)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Rigidbody:INTERNAL_get_velocity (UnityEngine.Vector3&)
+  at UnityEngine.Rigidbody.get_velocity () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.get_CurrentSpeed () [0x00000] in <filename unknown>:0 
+  at CommandServer.<EmitTelemetry>m__0 () [0x00000] in <filename unknown>:0 
+  at UnityMainThreadDispatcher+<ActionWrapper>c__IteratorD.MoveNext () [0x00000] in <filename unknown>:0 
+  at UnityEngine.SetupCoroutine.InvokeMoveNext (IEnumerator enumerator, IntPtr returnValueAddress) [0x00000] in <filename unknown>:0 
+UnityEngine.MonoBehaviour:StartCoroutine_Auto(IEnumerator)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+<Enqueue>c__AnonStorey21:<>m__20()
+UnityMainThreadDispatcher:Update()
+ 
+(Filename:  Line: -1)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.026000 ms
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 1469.
+Total: 1.555400 ms (FindLiveObjects: 0.101100 ms CreateObjectMapping: 0.042000 ms MarkObjects: 0.783000 ms  DeleteObjects: 0.628500 ms)
+
+Connection Open
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Connection Open
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.899300 ms
+
+Unloading 174 unused Assets to reduce memory usage. Loaded Objects now: 433.
+Total: 3.609800 ms (FindLiveObjects: 0.048900 ms CreateObjectMapping: 0.024800 ms MarkObjects: 0.648500 ms  DeleteObjects: 2.886900 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.059200 ms
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 1469.
+Total: 1.448600 ms (FindLiveObjects: 0.148800 ms CreateObjectMapping: 0.049900 ms MarkObjects: 0.756000 ms  DeleteObjects: 0.493200 ms)
+
+Connection Open
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Connection Open
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 3.244500 ms
+
+Unloading 174 unused Assets to reduce memory usage. Loaded Objects now: 436.
+Total: 7.516100 ms (FindLiveObjects: 0.073400 ms CreateObjectMapping: 0.027100 ms MarkObjects: 0.713200 ms  DeleteObjects: 6.701700 ms)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Rigidbody:INTERNAL_get_velocity (UnityEngine.Vector3&)
+  at UnityEngine.Rigidbody.get_velocity () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.get_CurrentSpeed () [0x00000] in <filename unknown>:0 
+  at CommandServer.<EmitTelemetry>m__0 () [0x00000] in <filename unknown>:0 
+  at UnityMainThreadDispatcher+<ActionWrapper>c__IteratorD.MoveNext () [0x00000] in <filename unknown>:0 
+  at UnityEngine.SetupCoroutine.InvokeMoveNext (IEnumerator enumerator, IntPtr returnValueAddress) [0x00000] in <filename unknown>:0 
+UnityEngine.MonoBehaviour:StartCoroutine_Auto(IEnumerator)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+<Enqueue>c__AnonStorey21:<>m__20()
+UnityMainThreadDispatcher:Update()
+ 
+(Filename:  Line: -1)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 4.106300 ms
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 1472.
+Total: 1.464100 ms (FindLiveObjects: 0.119700 ms CreateObjectMapping: 0.050100 ms MarkObjects: 0.733000 ms  DeleteObjects: 0.560700 ms)
+
+Connection Open
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Connection Open
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 3.403900 ms
+
+Unloading 174 unused Assets to reduce memory usage. Loaded Objects now: 436.
+Total: 3.548000 ms (FindLiveObjects: 0.040500 ms CreateObjectMapping: 0.028400 ms MarkObjects: 0.581000 ms  DeleteObjects: 2.897400 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.660500 ms
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 1472.
+Total: 1.562100 ms (FindLiveObjects: 0.149000 ms CreateObjectMapping: 0.044200 ms MarkObjects: 0.882300 ms  DeleteObjects: 0.485600 ms)
+
+Connection Open
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Connection Open
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 3.683800 ms
+
+Unloading 174 unused Assets to reduce memory usage. Loaded Objects now: 439.
+Total: 3.335300 ms (FindLiveObjects: 0.052400 ms CreateObjectMapping: 0.028100 ms MarkObjects: 0.620400 ms  DeleteObjects: 2.633900 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.594000 ms
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 1475.
+Total: 1.256300 ms (FindLiveObjects: 0.125200 ms CreateObjectMapping: 0.050900 ms MarkObjects: 0.694000 ms  DeleteObjects: 0.385300 ms)
+
+Connection Open
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Connection Open
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 4.419600 ms
+
+Unloading 174 unused Assets to reduce memory usage. Loaded Objects now: 439.
+Total: 4.424600 ms (FindLiveObjects: 0.131800 ms CreateObjectMapping: 0.033000 ms MarkObjects: 0.792200 ms  DeleteObjects: 3.466800 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.806900 ms
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 1475.
+Total: 1.313100 ms (FindLiveObjects: 0.108900 ms CreateObjectMapping: 0.051600 ms MarkObjects: 0.732100 ms  DeleteObjects: 0.419500 ms)
+
+Connection Open
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Connection Open
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 3.435200 ms
+
+Unloading 174 unused Assets to reduce memory usage. Loaded Objects now: 442.
+Total: 3.926200 ms (FindLiveObjects: 0.046200 ms CreateObjectMapping: 0.034700 ms MarkObjects: 0.797200 ms  DeleteObjects: 3.047300 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.739800 ms
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 1478.
+Total: 1.411200 ms (FindLiveObjects: 0.099000 ms CreateObjectMapping: 0.052500 ms MarkObjects: 0.758300 ms  DeleteObjects: 0.500900 ms)
+
+Connection Open
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Connection Open
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 8.241400 ms
+
+Unloading 174 unused Assets to reduce memory usage. Loaded Objects now: 442.
+Total: 3.166700 ms (FindLiveObjects: 0.031200 ms CreateObjectMapping: 0.017100 ms MarkObjects: 0.458400 ms  DeleteObjects: 2.659500 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.723900 ms
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 1478.
+Total: 1.245800 ms (FindLiveObjects: 0.092400 ms CreateObjectMapping: 0.032100 ms MarkObjects: 0.648700 ms  DeleteObjects: 0.471900 ms)
+
+Connection Open
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Connection Open
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 3.662600 ms
+
+Unloading 174 unused Assets to reduce memory usage. Loaded Objects now: 445.
+Total: 3.840300 ms (FindLiveObjects: 0.045100 ms CreateObjectMapping: 0.024000 ms MarkObjects: 0.538200 ms  DeleteObjects: 3.232300 ms)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Rigidbody:INTERNAL_get_velocity (UnityEngine.Vector3&)
+  at UnityEngine.Rigidbody.get_velocity () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.get_CurrentSpeed () [0x00000] in <filename unknown>:0 
+  at CommandServer.<EmitTelemetry>m__0 () [0x00000] in <filename unknown>:0 
+  at UnityMainThreadDispatcher+<ActionWrapper>c__IteratorD.MoveNext () [0x00000] in <filename unknown>:0 
+  at UnityEngine.SetupCoroutine.InvokeMoveNext (IEnumerator enumerator, IntPtr returnValueAddress) [0x00000] in <filename unknown>:0 
+UnityEngine.MonoBehaviour:StartCoroutine_Auto(IEnumerator)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+<Enqueue>c__AnonStorey21:<>m__20()
+UnityMainThreadDispatcher:Update()
+ 
+(Filename:  Line: -1)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.584100 ms
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 1481.
+Total: 1.159500 ms (FindLiveObjects: 0.138000 ms CreateObjectMapping: 0.052300 ms MarkObjects: 0.596100 ms  DeleteObjects: 0.371900 ms)
+
+Connection Open
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Connection Open
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
 
